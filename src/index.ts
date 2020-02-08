@@ -7,7 +7,7 @@ async function checkRes(res: Response, expectedStatus: number) {
   }
 }
 
-export class JustAuthenticateMe {
+export default class JustAuthenticateMe {
   private jamApiUrl: string;
   private jsonHeaders: HeadersInit;
 
