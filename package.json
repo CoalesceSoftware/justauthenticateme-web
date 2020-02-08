@@ -16,8 +16,9 @@
     "auth"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
     "lint": "tslint -p tsconfig.json",
+    "prepublishOnly": "npm run build",
     "postversion": "git push && git push --tags"
   },
   "husky": {
