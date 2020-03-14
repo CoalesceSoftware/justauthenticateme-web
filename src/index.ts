@@ -48,7 +48,7 @@ export default class JustAuthenticateMe {
   }
 
   async deleteRefreshToken(userIdToken: string, refreshToken: string) {
-    const res = await fetch(`${this.jamApiUrl}refresh/${refreshToken}`, {
+    const res = await fetch(`${this.jamApiUrl}user/refresh/${refreshToken}`, {
       method: "DELETE",
       cache: "no-cache",
       headers: {
@@ -59,7 +59,7 @@ export default class JustAuthenticateMe {
   }
 
   async deleteAllRefreshTokens(userIdToken: string) {
-    const res = await fetch(`${this.jamApiUrl}refresh`, {
+    const res = await fetch(`${this.jamApiUrl}user/refresh`, {
       method: "DELETE",
       cache: "no-cache",
       headers: {
