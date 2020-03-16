@@ -1,7 +1,7 @@
-<p align="center"><a href="https://www.justauthenticate.me" target="_blank" rel="noopener noreferrer"><img width="100" src="https://justauthenticateme.netlify.com/favicon.png" alt="JustAuthenticateMe logo"></a></p>
+<p align="center"><a href="https://www.justauthenticate.me" target="_blank" rel="noopener noreferrer"><img width="100" src="https://www.justauthenticate.me/favicon.png" alt="JustAuthenticateMe logo"></a></p>
 <p align="center">
   <a href="https://prettier.io/">
-    <img alt="types: typescript" src="https://badgen.net/badge/code style/prettier/ff69b4">
+    <img alt="code style: prettier" src="https://badgen.net/badge/code style/prettier/ff69b4">
   </a>
   <a href="https://www.typescriptlang.org/">
     <img alt="types: typescript" src="https://badgen.net/badge/types/TypeScript/blue">
