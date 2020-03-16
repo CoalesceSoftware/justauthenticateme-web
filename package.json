@@ -1,6 +1,6 @@
 {
   "name": "justauthenticateme-web",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Lightweight Browser Javascript SDK for https://www.justauthenticate.me",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
